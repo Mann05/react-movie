@@ -19,7 +19,7 @@ render(){
     return (
         <div className="rmdb-searchbar">
             <div className="rmdb-searchbar-content">
-                <FontAwesome className="rmdb-fa-search" name="seacrh" size="2x" />
+                <FontAwesome className="rmdb fa-search" name="seacrh" size="2x" />
                 <input type="text" className="rmdb-searchbar-input" placeholder="Search here..." onChange={this.doSearch}
                     value={this.state.value}/>
             </div> 
